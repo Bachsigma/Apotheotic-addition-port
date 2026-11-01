@@ -1,0 +1,20 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "neoforge:creative_flight",
+  "categories": [
+    "apotheosis:chestplate"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "operation": "add_value",
+  "values": {
+    "ao_apotheotic_port:artifact": 1.0,
+    "ao_apotheotic_port:esoteric": 1.0
+  }
+}

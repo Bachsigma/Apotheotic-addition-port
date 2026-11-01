@@ -1,0 +1,40 @@
+{
+  "type": "apotheosis:radial",
+  "categories": [
+    "apotheosis:breaker"
+  ],
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": [
+      {
+        "x": 7,
+        "xOff": 0,
+        "y": 7,
+        "yOff": 0
+      }
+    ],
+    "ao_apotheotic_port:artifact": [
+      {
+        "x": 7,
+        "xOff": 0,
+        "y": 7,
+        "yOff": 0
+      }
+    ],
+    "ao_apotheotic_port:esoteric": [
+      {
+        "x": 7,
+        "xOff": 0,
+        "y": 7,
+        "yOff": 0
+      }
+    ]
+  }
+}

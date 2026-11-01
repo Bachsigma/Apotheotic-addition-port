@@ -1,0 +1,84 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 5,
+    "quality": 2.5
+  },
+  "min_purity": "flawed",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:drop_transform",
+      "conditions": [
+        {
+          "condition": "apotheosis:matches_block",
+          "valid_blocks": "#aether:holystone"
+        }
+      ],
+      "desc": "gem.apotheotic_additions:alchemy/candied.pickaxe",
+      "gem_class": {
+        "key": "pickaxe",
+        "types": [
+          "apotheosis:breaker"
+        ]
+      },
+      "inputs": {
+        "tag": "aether:holystone"
+      },
+      "output": {
+        "count": 1,
+        "id": "alexscaves:block_of_chocolate"
+      },
+      "values": {
+        "flawed": 0.1,
+        "normal": 0.2,
+        "flawless": 0.3,
+        "perfect": 0.4
+      }
+    },
+    {
+      "type": "apotheosis:drop_transform",
+      "conditions": [
+        {
+          "condition": "apotheosis:matches_block",
+          "valid_blocks": "#aether:skyroot_logs"
+        }
+      ],
+      "desc": "gem.apotheotic_additions:alchemy/candied.axe",
+      "gem_class": {
+        "key": "axe",
+        "types": [
+          "apotheosis:melee_weapon"
+        ]
+      },
+      "inputs": {
+        "tag": "aether:skyroot_logs"
+      },
+      "output": {
+        "count": 1,
+        "id": "alexscaves:candy_cane"
+      },
+      "values": {
+        "flawed": 0.1,
+        "normal": 0.2,
+        "flawless": 0.3,
+        "perfect": 0.4
+      }
+    }
+  ],
+  "constraints": {
+    "dimensions": [
+      "aether:the_aether"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:generic.knockback_resistance",
+  "categories": [
+    "apotheosis:helmet",
+    "apotheosis:chestplate",
+    "apotheosis:leggings",
+    "apotheosis:boots"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "operation": "add_value",
+  "values": {
+    "ao_apotheotic_port:artifact": {
+      "min": 0.25,
+      "max": 0.35
+    },
+    "ao_apotheotic_port:esoteric": {
+      "min": 0.25,
+      "max": 0.35
+    }
+  }
+}

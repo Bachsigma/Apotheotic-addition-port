@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "deeperdarker"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "weights": {
+    "weight": 1,
+    "quality": 3
+  },
+  "stack": {
+    "id": "deeperdarker:warden_pickaxe",
+    "count": 1
+  },
+  "rarities": [
+    "ao_apotheotic_port:ancient"
+  ],
+  "constraints": {
+    "dimensions": [
+      "deeperdarker:otherside"
+    ]
+  }
+}

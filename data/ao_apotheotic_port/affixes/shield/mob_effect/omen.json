@@ -1,0 +1,27 @@
+{
+  "type": "apotheosis:mob_effect",
+  "types": [
+    "apotheosis:shield"
+  ],
+  "mob_effect": "minecraft:bad_omen",
+  "target": "block_self",
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:ancient": {
+      "duration": {
+        "min": 4000,
+        "steps": 5,
+        "step": 40
+      },
+      "amplifier": 0,
+      "cooldown": 12000
+    }
+  }
+}

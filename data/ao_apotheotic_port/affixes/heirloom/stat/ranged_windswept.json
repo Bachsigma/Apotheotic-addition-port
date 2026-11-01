@@ -1,0 +1,23 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:generic.movement_speed",
+  "operation": "add_multiplied_total",
+  "categories": [
+    "apotheosis:bow",
+    "apotheosis:trident"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 10,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": {
+      "min": 0.2,
+      "max": 0.4
+    }
+  }
+}

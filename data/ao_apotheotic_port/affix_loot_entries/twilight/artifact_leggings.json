@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "weights": {
+    "weight": 1,
+    "quality": 3.0
+  },
+  "stack": {
+    "id": "twilightforest:ironwood_leggings",
+    "count": 1
+  },
+  "rarities": [
+    "ao_apotheotic_port:artifact",
+    "ao_apotheotic_port:heirloom"
+  ],
+  "constraints": {
+    "dimensions": [
+      "twilightforest:twilight_forest"
+    ]
+  }
+}

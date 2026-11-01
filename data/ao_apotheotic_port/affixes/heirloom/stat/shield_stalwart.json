@@ -1,0 +1,22 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:generic.knockback_resistance",
+  "operation": "add_value",
+  "categories": [
+    "apotheosis:shield"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 10,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": {
+      "min": 0.25,
+      "max": 0.35
+    }
+  }
+}

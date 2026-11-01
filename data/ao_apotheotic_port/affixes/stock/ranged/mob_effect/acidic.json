@@ -1,0 +1,38 @@
+{
+  "type": "apotheosis:mob_effect",
+  "definition": {
+    "affix_type": "basic_effect",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 25,
+      "quality": 0
+    }
+  },
+  "mob_effect": "apothic_attributes:sundering",
+  "stack_on_reapply": true,
+  "stacking_limit": 4,
+  "target": "arrow_target",
+  "types": [
+    "apotheosis:bow"
+  ],
+  "values": {
+    "ao_apotheotic_port:ancient": {
+      "duration": {
+        "min": 80.0,
+        "max": 160.0,
+        "step": 20.0
+      },
+      "amplifier": 0.0,
+      "cooldown": 40
+    },
+    "ao_apotheotic_port:heirloom": {
+      "duration": {
+        "min": 80.0,
+        "max": 160.0,
+        "step": 20.0
+      },
+      "amplifier": 0.0,
+      "cooldown": 40
+    }
+  }
+}

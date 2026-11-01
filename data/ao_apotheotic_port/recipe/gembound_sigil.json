@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ADA",
+    "CBC",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "tag": "ao_apotheotic_port:slate_reagents"
+    },
+    "B": {
+      "item": "apotheosis:gem_fused_slate"
+    },
+    "C": {
+      "item": "minecraft:sculk"
+    },
+    "D": {
+      "item": "apotheosis:gem_dust"
+    }
+  },
+  "result": {
+    "id": "ao_apotheotic_port:gembound_sigil",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "apothic_attributes:mining_speed",
+  "operation": "add_multiplied_total",
+  "categories": [
+    "apotheosis:breaker",
+    "apotheosis:shears"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 10,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:ancient": {
+      "min": 0.55,
+      "max": 0.98
+    }
+  }
+}

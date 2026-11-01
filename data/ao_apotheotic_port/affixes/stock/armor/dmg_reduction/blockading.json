@@ -1,0 +1,30 @@
+{
+  "type": "apotheosis:damage_reduction",
+  "categories": [
+    "apotheosis:chestplate",
+    "apotheosis:leggings"
+  ],
+  "damage_type": "physical",
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": {
+      "min": 0.05,
+      "max": 0.15
+    },
+    "ao_apotheotic_port:artifact": {
+      "min": 0.05,
+      "max": 0.15
+    },
+    "ao_apotheotic_port:esoteric": {
+      "min": 0.05,
+      "max": 0.15
+    }
+  }
+}

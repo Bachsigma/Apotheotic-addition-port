@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "dev.ambientodyssey.ports.apotheotic.mixin.input",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "InputConstantsSafetyMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "apothic_attributes:arrow_damage",
+  "operation": "add_multiplied_total",
+  "categories": [
+    "apotheosis:bow"
+  ],
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [
+      "ao_apotheotic_port:heirloom/stat/ranged_elven",
+      "ao_apotheotic_port:ranged/attribute/artifact_damage"
+    ],
+    "weights": {
+      "weight": 0,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": 1.0125
+  }
+}

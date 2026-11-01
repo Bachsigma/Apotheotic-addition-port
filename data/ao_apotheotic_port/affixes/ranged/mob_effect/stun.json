@@ -1,0 +1,60 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "apotheosis:mob_effect",
+  "types": [
+    "apotheosis:bow"
+  ],
+  "mob_effect": "alexscaves:stunned",
+  "target": "arrow_target",
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:ancient": {
+      "duration": {
+        "min": 30,
+        "steps": 3,
+        "step": 25
+      },
+      "amplifier": 0,
+      "cooldown": 500
+    },
+    "ao_apotheotic_port:artifact": {
+      "duration": {
+        "min": 40,
+        "steps": 4,
+        "step": 30
+      },
+      "amplifier": 1,
+      "cooldown": 400
+    },
+    "ao_apotheotic_port:heirloom": {
+      "duration": {
+        "min": 70,
+        "steps": 5,
+        "step": 35
+      },
+      "amplifier": 1,
+      "cooldown": 400
+    },
+    "ao_apotheotic_port:esoteric": {
+      "duration": {
+        "min": 80,
+        "steps": 8,
+        "step": 40
+      },
+      "amplifier": 2,
+      "cooldown": 400
+    }
+  }
+}

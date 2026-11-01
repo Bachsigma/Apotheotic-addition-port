@@ -1,0 +1,87 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 5,
+    "quality": 6.5
+  },
+  "min_purity": "flawed",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:drop_transform",
+      "conditions": [
+        {
+          "condition": "apotheosis:matches_block",
+          "valid_blocks": "#c:stones"
+        }
+      ],
+      "desc": "gem.apotheotic_additions:alchemy/decay.pickaxe",
+      "gem_class": {
+        "key": "pickaxe",
+        "types": [
+          "apotheosis:breaker"
+        ]
+      },
+      "inputs": {
+        "tag": "c:cobblestones"
+      },
+      "output": {
+        "count": 1,
+        "id": "undergarden:depthrock"
+      },
+      "values": {
+        "flawed": 0.15,
+        "normal": 0.3,
+        "flawless": 0.45,
+        "perfect": 0.6
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "apothic_attributes:armor_shred",
+      "operation": "add_value",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "apotheosis:melee_weapon",
+          "apotheosis:trident"
+        ]
+      },
+      "values": {
+        "flawed": 0.015,
+        "normal": 0.03,
+        "flawless": 0.045,
+        "perfect": 0.06
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "apothic_attributes:mining_speed",
+      "operation": "add_value",
+      "gem_class": {
+        "key": "lower_armor",
+        "types": [
+          "apotheosis:boots",
+          "apotheosis:leggings"
+        ]
+      },
+      "values": {
+        "flawed": 0.05,
+        "normal": 0.1,
+        "flawless": 0.15,
+        "perfect": 0.2
+      }
+    }
+  ],
+  "constraints": {
+    "dimensions": [
+      "undergarden:undergarden"
+    ]
+  }
+}

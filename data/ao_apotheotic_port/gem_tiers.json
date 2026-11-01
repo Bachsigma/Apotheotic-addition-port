@@ -1,0 +1,1038 @@
+{
+ "ao_apotheotic_port:aether/aether": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 1
+   }
+  }
+ },
+ "ao_apotheotic_port:aether/candied": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 0.4,
+    "6": 0.55,
+    "7": 0.7,
+    "8": 0.85,
+    "9": 1
+   },
+   "1": {
+    "5": 0.4,
+    "6": 0.55,
+    "7": 0.7,
+    "8": 0.85,
+    "9": 1
+   }
+  }
+ },
+ "ao_apotheotic_port:aether/purity": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 0.6,
+    "6": 0.7,
+    "7": 0.8,
+    "8": 0.9,
+    "9": 1
+   },
+   "1": {
+    "5": 0.06,
+    "6": 0.0725,
+    "7": 0.085,
+    "8": 0.0975,
+    "9": 0.11
+   },
+   "2": {
+    "5": 0.2,
+    "6": 0.2375,
+    "7": 0.275,
+    "8": 0.3125,
+    "9": 0.35
+   }
+  }
+ },
+ "ao_apotheotic_port:aether/zanite_alchemist": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 0.6,
+    "6": 0.7,
+    "7": 0.8,
+    "8": 0.9,
+    "9": 1
+   },
+   "1": {
+    "5": {
+     "amplifier": 1,
+     "cooldown": 1200,
+     "duration": 1
+    },
+    "6": {
+     "amplifier": 1,
+     "cooldown": 1150,
+     "duration": 1
+    },
+    "7": {
+     "amplifier": 2,
+     "cooldown": 1100,
+     "duration": 1
+    },
+    "8": {
+     "amplifier": 2,
+     "cooldown": 1000,
+     "duration": 1
+    },
+    "9": {
+     "amplifier": 3,
+     "cooldown": 1000,
+     "duration": 1
+    }
+   },
+   "2": {
+    "5": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 160
+    },
+    "6": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 190
+    },
+    "7": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 200
+    },
+    "8": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 240
+    },
+    "9": {
+     "amplifier": 2,
+     "cooldown": 900,
+     "duration": 280
+    }
+   }
+  }
+ },
+ "ao_apotheotic_port:bumblezone/bee_queen": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": {
+     "amplifier": 1,
+     "cooldown": 100,
+     "duration": 300
+    },
+    "6": {
+     "amplifier": 1,
+     "cooldown": 100,
+     "duration": 475
+    },
+    "7": {
+     "amplifier": 2,
+     "cooldown": 100,
+     "duration": 400
+    },
+    "8": {
+     "amplifier": 2,
+     "cooldown": 100,
+     "duration": 500
+    },
+    "9": {
+     "amplifier": 2,
+     "cooldown": 100,
+     "duration": 1000
+    }
+   },
+   "1": {
+    "5": 2.5,
+    "6": 2.875,
+    "7": 3.25,
+    "8": 3.625,
+    "9": 4
+   },
+   "2:0": {
+    "5": 0.15,
+    "6": 0.1725,
+    "7": 0.195,
+    "8": 0.2175,
+    "9": 0.24
+   },
+   "2:1": {
+    "5": -0.15,
+    "6": -0.1725,
+    "7": -0.195,
+    "8": -0.2175,
+    "9": -0.24
+   }
+  }
+ },
+ "ao_apotheotic_port:crafted/ender_dragon": {
+  "tiers": [
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "7": 2,
+    "8": 3,
+    "9": 4
+   }
+  }
+ },
+ "ao_apotheotic_port:crafted/harbringer": {
+  "tiers": [
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "7": {
+     "amplifier": 0,
+     "cooldown": 6000,
+     "duration": 1000
+    },
+    "8": {
+     "amplifier": 0,
+     "cooldown": 5000,
+     "duration": 1500
+    },
+    "9": {
+     "amplifier": 0,
+     "cooldown": 4000,
+     "duration": 2000
+    }
+   }
+  }
+ },
+ "ao_apotheotic_port:crafted/leviathan": {
+  "tiers": [
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "7": {
+     "amplifier": 0,
+     "cooldown": 6000,
+     "duration": 600
+    },
+    "8": {
+     "amplifier": 0,
+     "cooldown": 5000,
+     "duration": 750
+    },
+    "9": {
+     "amplifier": 0,
+     "cooldown": 4000,
+     "duration": 900
+    }
+   }
+  }
+ },
+ "ao_apotheotic_port:crafted/naga": {
+  "tiers": [
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "7": 0.75,
+    "8": 0.9,
+    "9": 1
+   }
+  }
+ },
+ "ao_apotheotic_port:crafted/remnant": {
+  "tiers": [
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "7": {
+     "amplifier": 0,
+     "cooldown": 6000,
+     "duration": 100
+    },
+    "8": {
+     "amplifier": 0,
+     "cooldown": 5000,
+     "duration": 150
+    },
+    "9": {
+     "amplifier": 0,
+     "cooldown": 4000,
+     "duration": 200
+    }
+   }
+  }
+ },
+ "ao_apotheotic_port:crafted/sunbird": {
+  "tiers": [
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "7": {
+     "amplifier": 0,
+     "cooldown": 6000,
+     "duration": 5000
+    },
+    "8": {
+     "amplifier": 0,
+     "cooldown": 5000,
+     "duration": 6000
+    },
+    "9": {
+     "amplifier": 0,
+     "cooldown": 4000,
+     "duration": 7000
+    }
+   }
+  }
+ },
+ "ao_apotheotic_port:crafted/ur-ghast": {
+  "tiers": [
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "7": 0.05,
+    "8": 0.075,
+    "9": 0.1
+   }
+  }
+ },
+ "ao_apotheotic_port:crafted/wither": {
+  "tiers": [
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0:0": {
+    "7": 5.5,
+    "8": 6,
+    "9": 6.5
+   },
+   "0:1": {
+    "7": 5.5,
+    "8": 6,
+    "9": 6.5
+   }
+  }
+ },
+ "ao_apotheotic_port:crafted/wroughtnaut": {
+  "tiers": [
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0:0": {
+    "7": 4,
+    "8": 5,
+    "9": 6
+   },
+   "0:1": {
+    "7": 4,
+    "8": 5,
+    "9": 6
+   }
+  }
+ },
+ "ao_apotheotic_port:modded/amber": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 1,
+    "6": 1,
+    "7": 2,
+    "8": 2,
+    "9": 3
+   },
+   "1": {
+    "5": 1,
+    "6": 1,
+    "7": 2,
+    "8": 2,
+    "9": 3
+   },
+   "2": {
+    "5": 0.3,
+    "6": 0.35,
+    "7": 0.4,
+    "8": 0.45,
+    "9": 0.5
+   },
+   "3": {
+    "5": {
+     "amplifier": 0,
+     "cooldown": 900,
+     "duration": 240
+    },
+    "6": {
+     "amplifier": 0,
+     "cooldown": 900,
+     "duration": 305
+    },
+    "7": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 320
+    },
+    "8": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 400
+    },
+    "9": {
+     "amplifier": 2,
+     "cooldown": 900,
+     "duration": 500
+    }
+   }
+  }
+ },
+ "ao_apotheotic_port:modded/archmage": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 2,
+    "6": 2,
+    "7": 3,
+    "8": 4,
+    "9": 5
+   },
+   "1": {
+    "5": 0.5,
+    "6": 0.575,
+    "7": 0.65,
+    "8": 0.725,
+    "9": 0.8
+   },
+   "2": {
+    "5": 0.2,
+    "6": 0.2375,
+    "7": 0.275,
+    "8": 0.3125,
+    "9": 0.35
+   },
+   "3": {
+    "5": {
+     "amplifier": 0,
+     "cooldown": 400,
+     "duration": 240
+    },
+    "6": {
+     "amplifier": 0,
+     "cooldown": 350,
+     "duration": 305
+    },
+    "7": {
+     "amplifier": 1,
+     "cooldown": 300,
+     "duration": 320
+    },
+    "8": {
+     "amplifier": 1,
+     "cooldown": 200,
+     "duration": 400
+    },
+    "9": {
+     "amplifier": 2,
+     "cooldown": 200,
+     "duration": 500
+    }
+   }
+  }
+ },
+ "ao_apotheotic_port:modded/ars_mana": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 150,
+    "6": 168.75,
+    "7": 187.5,
+    "8": 206.25,
+    "9": 225
+   },
+   "1": {
+    "5": 3.0,
+    "6": 3.375,
+    "7": 3.75,
+    "8": 4.125,
+    "9": 4.5
+   },
+   "2": {
+    "5": 0.15,
+    "6": 0.16875,
+    "7": 0.1875,
+    "8": 0.20625,
+    "9": 0.225
+   }
+  }
+ },
+ "ao_apotheotic_port:modded/cataclysm": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 200
+    },
+    "6": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 275
+    },
+    "7": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 300
+    },
+    "8": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 400
+    },
+    "9": {
+     "amplifier": 2,
+     "cooldown": 900,
+     "duration": 500
+    }
+   },
+   "1": {
+    "5": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 160
+    },
+    "6": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 190
+    },
+    "7": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 200
+    },
+    "8": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 240
+    },
+    "9": {
+     "amplifier": 2,
+     "cooldown": 900,
+     "duration": 280
+    }
+   }
+  }
+ },
+ "ao_apotheotic_port:modded/depths": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 0.02,
+    "6": 0.02375,
+    "7": 0.0275,
+    "8": 0.03125,
+    "9": 0.035
+   },
+   "1": {
+    "5": 1,
+    "6": 1,
+    "7": 2,
+    "8": 2,
+    "9": 3
+   },
+   "2": {
+    "5": 0.45,
+    "6": 0.5625,
+    "7": 0.675,
+    "8": 0.7875,
+    "9": 0.9
+   }
+  }
+ },
+ "ao_apotheotic_port:modded/draconic_legacy": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 0.1,
+    "6": 0.115,
+    "7": 0.13,
+    "8": 0.145,
+    "9": 0.16
+   },
+   "1": {
+    "5": 0.15,
+    "6": 0.1725,
+    "7": 0.195,
+    "8": 0.2175,
+    "9": 0.24
+   },
+   "2": {
+    "5": 0.075,
+    "6": 0.08625,
+    "7": 0.0975,
+    "8": 0.10875,
+    "9": 0.12
+   },
+   "3": {
+    "5": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 160
+    },
+    "6": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 190
+    },
+    "7": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 200
+    },
+    "8": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 240
+    },
+    "9": {
+     "amplifier": 2,
+     "cooldown": 900,
+     "duration": 280
+    }
+   },
+   "4": {
+    "5": 0.07,
+    "6": 0.085,
+    "7": 0.1,
+    "8": 0.115,
+    "9": 0.13
+   }
+  }
+ },
+ "ao_apotheotic_port:modded/heartland": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 0.15,
+    "6": 0.1875,
+    "7": 0.225,
+    "8": 0.2625,
+    "9": 0.3
+   },
+   "1": {
+    "5": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 160
+    },
+    "6": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 190
+    },
+    "7": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 200
+    },
+    "8": {
+     "amplifier": 1,
+     "cooldown": 900,
+     "duration": 240
+    },
+    "9": {
+     "amplifier": 2,
+     "cooldown": 900,
+     "duration": 280
+    }
+   },
+   "2": {
+    "5": 0.06,
+    "6": 0.075,
+    "7": 0.09,
+    "8": 0.105,
+    "9": 0.12
+   }
+  }
+ },
+ "ao_apotheotic_port:modded/midas": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 0.15,
+    "6": 0.1875,
+    "7": 0.225,
+    "8": 0.2625,
+    "9": 0.3
+   },
+   "1": {
+    "5": 1,
+    "6": 1,
+    "7": 2,
+    "8": 2,
+    "9": 3
+   }
+  }
+ },
+ "ao_apotheotic_port:modded/safari": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": {
+     "amplifier": 0,
+     "cooldown": 400,
+     "duration": 200
+    },
+    "6": {
+     "amplifier": 0,
+     "cooldown": 310,
+     "duration": 275
+    },
+    "7": {
+     "amplifier": 0,
+     "cooldown": 400,
+     "duration": 300
+    },
+    "8": {
+     "amplifier": 0,
+     "cooldown": 40,
+     "duration": 400
+    },
+    "9": {
+     "amplifier": 0,
+     "cooldown": 40,
+     "duration": 500
+    }
+   },
+   "1": {
+    "5": {
+     "amplifier": 0,
+     "cooldown": 400,
+     "duration": 200
+    },
+    "6": {
+     "amplifier": 0,
+     "cooldown": 310,
+     "duration": 275
+    },
+    "7": {
+     "amplifier": 0,
+     "cooldown": 400,
+     "duration": 300
+    },
+    "8": {
+     "amplifier": 0,
+     "cooldown": 40,
+     "duration": 400
+    },
+    "9": {
+     "amplifier": 0,
+     "cooldown": 40,
+     "duration": 500
+    }
+   },
+   "2": {
+    "5": {
+     "amplifier": 0,
+     "cooldown": 200,
+     "duration": 500
+    },
+    "6": {
+     "amplifier": 0,
+     "cooldown": 200,
+     "duration": 650
+    },
+    "7": {
+     "amplifier": 0,
+     "cooldown": 200,
+     "duration": 750
+    },
+    "8": {
+     "amplifier": 1,
+     "cooldown": 200,
+     "duration": 900
+    },
+    "9": {
+     "amplifier": 1,
+     "cooldown": 200,
+     "duration": 1100
+    }
+   },
+   "3": {
+    "5": 0.12,
+    "6": 0.1525,
+    "7": 0.185,
+    "8": 0.2175,
+    "9": 0.25
+   }
+  }
+ },
+ "ao_apotheotic_port:modded/uranium": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 2,
+    "9": 2
+   },
+   "1:0": {
+    "5": -0.5,
+    "6": -0.575,
+    "7": -0.65,
+    "8": -0.725,
+    "9": -0.8
+   },
+   "1:1": {
+    "5": 0.5,
+    "6": 0.575,
+    "7": 0.65,
+    "8": 0.725,
+    "9": 0.8
+   },
+   "2:0": {
+    "5": -0.5,
+    "6": -0.575,
+    "7": -0.65,
+    "8": -0.725,
+    "9": -0.8
+   },
+   "2:1": {
+    "5": 0.5,
+    "6": 0.575,
+    "7": 0.65,
+    "8": 0.725,
+    "9": 0.8
+   },
+   "3": {
+    "5": {
+     "amplifier": 1,
+     "cooldown": 200,
+     "duration": 500
+    },
+    "6": {
+     "amplifier": 1,
+     "cooldown": 200,
+     "duration": 875
+    },
+    "7": {
+     "amplifier": 1,
+     "cooldown": 200,
+     "duration": 750
+    },
+    "8": {
+     "amplifier": 2,
+     "cooldown": 200,
+     "duration": 1000
+    },
+    "9": {
+     "amplifier": 2,
+     "cooldown": 200,
+     "duration": 2000
+    }
+   }
+  }
+ },
+ "ao_apotheotic_port:undergarden/decay": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 0.6,
+    "6": 0.7,
+    "7": 0.8,
+    "8": 0.9,
+    "9": 1
+   },
+   "1": {
+    "5": 0.06,
+    "6": 0.075,
+    "7": 0.09,
+    "8": 0.105,
+    "9": 0.12
+   },
+   "2": {
+    "5": 0.2,
+    "6": 0.2375,
+    "7": 0.275,
+    "8": 0.3125,
+    "9": 0.35
+   }
+  }
+ },
+ "ao_apotheotic_port:undergarden/undergarden": {
+  "tiers": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "values": {
+   "0": {
+    "5": 6.0,
+    "6": 7.5,
+    "7": 9.0,
+    "8": 10.5,
+    "9": 12
+   },
+   "1": {
+    "5": 0.25,
+    "6": 0.2875,
+    "7": 0.325,
+    "8": 0.3625,
+    "9": 0.4
+   },
+   "2": {
+    "5": {
+     "amplifier": 0,
+     "cooldown": 800,
+     "duration": 240
+    },
+    "6": {
+     "amplifier": 0,
+     "cooldown": 775,
+     "duration": 285
+    },
+    "7": {
+     "amplifier": 1,
+     "cooldown": 800,
+     "duration": 300
+    },
+    "8": {
+     "amplifier": 1,
+     "cooldown": 700,
+     "duration": 360
+    },
+    "9": {
+     "amplifier": 2,
+     "cooldown": 700,
+     "duration": 420
+    }
+   }
+  }
+ }
+}

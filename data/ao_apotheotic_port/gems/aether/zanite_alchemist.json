@@ -1,0 +1,117 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 5,
+    "quality": 1.5
+  },
+  "min_purity": "flawed",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:drop_transform",
+      "conditions": [
+        {
+          "condition": "apotheosis:matches_block",
+          "valid_blocks": "#c:ores/iron"
+        }
+      ],
+      "desc": "gem.apotheotic_additions:alchemy/zanite.bonus.pickaxe",
+      "gem_class": {
+        "key": "pickaxe",
+        "types": [
+          "apotheosis:breaker"
+        ]
+      },
+      "inputs": {
+        "tag": "c:raw_materials/iron"
+      },
+      "output": {
+        "count": 1,
+        "id": "aether:zanite_gemstone"
+      },
+      "values": {
+        "flawed": 0.15,
+        "normal": 0.3,
+        "flawless": 0.45,
+        "perfect": 0.6
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "apotheosis:chestplate"
+        ]
+      },
+      "mob_effect": "minecraft:instant_damage",
+      "target": "hurt_attacker",
+      "values": {
+        "flawed": {
+          "duration": 1,
+          "amplifier": 0,
+          "cooldown": 1500
+        },
+        "normal": {
+          "duration": 1,
+          "amplifier": 0,
+          "cooldown": 1400
+        },
+        "flawless": {
+          "duration": 1,
+          "amplifier": 0,
+          "cooldown": 1300
+        },
+        "perfect": {
+          "duration": 1,
+          "amplifier": 1,
+          "cooldown": 1200
+        }
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "apotheosis:melee_weapon"
+        ]
+      },
+      "mob_effect": "minecraft:strength",
+      "target": "attack_self",
+      "values": {
+        "flawed": {
+          "duration": 60,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "normal": {
+          "duration": 80,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "flawless": {
+          "duration": 120,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "perfect": {
+          "duration": 160,
+          "amplifier": 1,
+          "cooldown": 900
+        }
+      }
+    }
+  ],
+  "constraints": {
+    "dimensions": [
+      "aether:the_aether"
+    ]
+  }
+}

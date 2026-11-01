@@ -1,0 +1,24 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:generic.luck",
+  "operation": "add_value",
+  "categories": [
+    "apotheosis:helmet"
+  ],
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [
+      "ao_apotheotic_port:armor/attribute/artifact_luck",
+      "ao_apotheotic_port:breaker/attribute/artifact_luck",
+      "ao_apotheotic_port:heirloom/stat/armor_fortunate",
+      "ao_apotheotic_port:heirloom/stat/generic_lucky"
+    ],
+    "weights": {
+      "weight": 0,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": 36.0
+  }
+}

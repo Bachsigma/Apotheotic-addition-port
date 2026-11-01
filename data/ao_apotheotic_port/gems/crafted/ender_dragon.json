@@ -1,0 +1,32 @@
+{
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 0
+  },
+  "min_purity": "perfect",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:enchantment",
+      "enchantment": "minecraft:sharpness",
+      "mode": "global",
+      "gem_class": {
+        "key": "anything",
+        "types": [
+          "apotheosis:boots",
+          "apotheosis:bow",
+          "apotheosis:breaker",
+          "apotheosis:chestplate",
+          "apotheosis:helmet",
+          "apotheosis:leggings",
+          "apotheosis:melee_weapon",
+          "apotheosis:shield",
+          "apotheosis:trident"
+        ]
+      },
+      "values": {
+        "perfect": 2
+      }
+    }
+  ]
+}

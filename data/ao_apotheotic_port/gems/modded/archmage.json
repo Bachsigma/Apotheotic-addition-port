@@ -1,0 +1,93 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 5,
+    "quality": 1.5
+  },
+  "min_purity": "flawless",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:enchantment",
+      "enchantment": "ars_nouveau:mana_regen",
+      "mode": "single",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "apotheosis:helmet"
+        ]
+      },
+      "values": {
+        "flawed": 1,
+        "normal": 1,
+        "flawless": 2,
+        "perfect": 2
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "operation": "add_multiplied_total",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "apotheosis:chestplate"
+        ]
+      },
+      "values": {
+        "flawed": 0.2,
+        "normal": 0.3,
+        "flawless": 0.4,
+        "perfect": 0.5
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "operation": "add_multiplied_total",
+      "gem_class": {
+        "key": "lower_armor",
+        "types": [
+          "apotheosis:boots",
+          "apotheosis:leggings"
+        ]
+      },
+      "values": {
+        "flawed": 0.05,
+        "normal": 0.1,
+        "flawless": 0.15,
+        "perfect": 0.2
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "ranged_weapon",
+        "types": [
+          "apotheosis:bow",
+          "apotheosis:trident"
+        ]
+      },
+      "mob_effect": "ars_nouveau:shocked",
+      "target": "arrow_target",
+      "values": {
+        "flawless": {
+          "duration": 180,
+          "amplifier": 0,
+          "cooldown": 500
+        },
+        "perfect": {
+          "duration": 240,
+          "amplifier": 0,
+          "cooldown": 400
+        }
+      }
+    }
+  ]
+}

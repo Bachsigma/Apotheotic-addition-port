@@ -1,0 +1,22 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "apothic_attributes:experience_gained",
+  "operation": "add_multiplied_base",
+  "categories": [
+    "apotheosis:breaker"
+  ],
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [
+      "ao_apotheotic_port:breaker/attribute/artifact_xp",
+      "ao_apotheotic_port:heirloom/stat/breaker_experienced"
+    ],
+    "weights": {
+      "weight": 0,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": 1.1
+  }
+}

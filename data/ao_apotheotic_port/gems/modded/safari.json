@@ -1,0 +1,114 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alexsmobs"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 7,
+    "quality": 3.5
+  },
+  "min_purity": "flawless",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "apotheosis:chestplate"
+        ]
+      },
+      "mob_effect": "alexsmobs:poison_resistance",
+      "target": "attack_self",
+      "values": {
+        "flawless": {
+          "duration": 100,
+          "amplifier": 0,
+          "cooldown": 400
+        },
+        "perfect": {
+          "duration": 200,
+          "amplifier": 0,
+          "cooldown": 400
+        }
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "apotheosis:boots"
+        ]
+      },
+      "mob_effect": "alexsmobs:knockback_resistance",
+      "target": "attack_self",
+      "values": {
+        "flawless": {
+          "duration": 100,
+          "amplifier": 0,
+          "cooldown": 400
+        },
+        "perfect": {
+          "duration": 200,
+          "amplifier": 0,
+          "cooldown": 400
+        }
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "apotheosis:melee_weapon"
+        ]
+      },
+      "mob_effect": "alexsmobs:exsanguination",
+      "target": "attack_target",
+      "values": {
+        "flawed": {
+          "duration": 140,
+          "amplifier": 0,
+          "cooldown": 200
+        },
+        "normal": {
+          "duration": 180,
+          "amplifier": 0,
+          "cooldown": 200
+        },
+        "flawless": {
+          "duration": 220,
+          "amplifier": 0,
+          "cooldown": 200
+        },
+        "perfect": {
+          "duration": 500,
+          "amplifier": 0,
+          "cooldown": 200
+        }
+      },
+      "stack_on_reapply": true
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "apothic_attributes:experience_gained",
+      "operation": "add_value",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "apotheosis:helmet"
+        ]
+      },
+      "values": {
+        "flawed": 0.03,
+        "normal": 0.06,
+        "flawless": 0.09,
+        "perfect": 0.12
+      }
+    }
+  ]
+}

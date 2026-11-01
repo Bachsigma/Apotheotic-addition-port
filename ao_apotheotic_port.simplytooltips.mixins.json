@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "dev.ambientodyssey.ports.apotheotic.mixin.simplytooltips",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "TooltipPainterMixin",
+    "TooltipRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:generic.armor",
+  "operation": "add_value",
+  "categories": [
+    "apotheosis:helmet",
+    "apotheosis:chestplate",
+    "apotheosis:leggings",
+    "apotheosis:boots",
+    "apotheosis:shield"
+  ],
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [
+      "ao_apotheotic_port:armor/attribute/artifact_armor",
+      "ao_apotheotic_port:heirloom/stat/armor_adamantine",
+      "ao_apotheotic_port:heirloom/stat/armor_ironforged",
+      "ao_apotheotic_port:heirloom/stat/shield_ironforged"
+    ],
+    "weights": {
+      "weight": 0,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": 100.0
+  }
+}

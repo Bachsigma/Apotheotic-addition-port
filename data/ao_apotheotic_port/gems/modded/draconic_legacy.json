@@ -1,0 +1,140 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 5,
+    "quality": 2.5
+  },
+  "min_purity": "flawed",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "minecraft:generic.luck",
+      "operation": "add_multiplied_total",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "apotheosis:helmet"
+        ]
+      },
+      "values": {
+        "chipped": 0.02,
+        "flawed": 0.04,
+        "normal": 0.06,
+        "flawless": 0.08,
+        "perfect": 0.1
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "operation": "add_multiplied_total",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "apotheosis:chestplate"
+        ]
+      },
+      "values": {
+        "chipped": 0.03,
+        "flawed": 0.06,
+        "normal": 0.09,
+        "flawless": 0.12,
+        "perfect": 0.15
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "apothic_attributes:fire_damage",
+      "operation": "add_multiplied_total",
+      "gem_class": {
+        "key": "lower_armor",
+        "types": [
+          "apotheosis:boots",
+          "apotheosis:leggings"
+        ]
+      },
+      "values": {
+        "chipped": 0.015,
+        "flawed": 0.03,
+        "normal": 0.045,
+        "flawless": 0.06,
+        "perfect": 0.075
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "apotheosis:melee_weapon"
+        ]
+      },
+      "mob_effect": "minecraft:strength",
+      "target": "attack_self",
+      "values": {
+        "flawed": {
+          "duration": 60,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "normal": {
+          "duration": 80,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "flawless": {
+          "duration": 120,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "perfect": {
+          "duration": 160,
+          "amplifier": 1,
+          "cooldown": 900
+        }
+      }
+    },
+    {
+      "type": "apotheosis:drop_transform",
+      "conditions": [
+        {
+          "condition": "apotheosis:matches_block",
+          "valid_blocks": "#c:gravels"
+        }
+      ],
+      "desc": "gem.apotheotic_additions:alchemy/draconic_legacy.shovel",
+      "gem_class": {
+        "key": "shovel",
+        "types": [
+          "apotheosis:breaker"
+        ]
+      },
+      "inputs": {
+        "tag": "c:gravels"
+      },
+      "output": {
+        "count": 1,
+        "id": "iceandfire:dragonbone"
+      },
+      "values": {
+        "chipped": 0.01,
+        "flawed": 0.02,
+        "normal": 0.03,
+        "flawless": 0.05,
+        "perfect": 0.07
+      }
+    }
+  ],
+  "constraints": {
+    "dimensions": [
+      "minecraft:overworld"
+    ]
+  }
+}

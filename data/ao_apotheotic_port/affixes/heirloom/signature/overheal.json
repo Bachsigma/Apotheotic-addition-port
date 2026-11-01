@@ -1,0 +1,22 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "apothic_attributes:overheal",
+  "operation": "add_value",
+  "categories": [
+    "apotheosis:melee_weapon",
+    "apotheosis:trident"
+  ],
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [
+      "ao_apotheotic_port:heirloom/stat/melee_berserking"
+    ],
+    "weights": {
+      "weight": 0,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": 0.5
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "apotheosis:damage_reduction",
+  "categories": [
+    "apotheosis:boots"
+  ],
+  "damage_type": "fall",
+  "definition": {
+    "affix_type": "basic_effect",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 25,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:ancient": {
+      "min": 0.15,
+      "max": 0.4
+    },
+    "ao_apotheotic_port:heirloom": {
+      "min": 0.15,
+      "max": 0.4
+    }
+  }
+}

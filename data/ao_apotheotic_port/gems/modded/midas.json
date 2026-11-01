@@ -1,0 +1,47 @@
+{
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 5,
+    "quality": 1
+  },
+  "min_purity": "normal",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:mageslayer",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "apotheosis:helmet"
+        ]
+      },
+      "values": {
+        "normal": 0.05,
+        "flawless": 0.1,
+        "perfect": 0.15
+      }
+    },
+    {
+      "type": "apotheosis:enchantment",
+      "enchantment": "minecraft:sweeping_edge",
+      "mode": "single",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "apotheosis:melee_weapon",
+          "apotheosis:trident"
+        ]
+      },
+      "values": {
+        "normal": 1,
+        "flawless": 1,
+        "perfect": 1
+      }
+    }
+  ],
+  "constraints": {
+    "dimensions": [
+      "minecraft:the_end"
+    ]
+  }
+}

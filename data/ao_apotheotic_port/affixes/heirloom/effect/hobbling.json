@@ -1,0 +1,44 @@
+{
+  "type": "apotheosis:mob_effect",
+  "types": [
+    "apotheosis:bow"
+  ],
+  "mob_effect": "minecraft:slowness",
+  "target": "arrow_target",
+  "definition": {
+    "affix_type": "basic_effect",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 25,
+      "quality": 0.1
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": {
+      "duration": {
+        "min": 80.0,
+        "max": 160.0,
+        "step": 20.0
+      },
+      "amplifier": {
+        "min": 0.0,
+        "max": 2.0,
+        "step": 0.5
+      },
+      "cooldown": 60
+    },
+    "ao_apotheotic_port:ancient": {
+      "duration": {
+        "min": 80.0,
+        "max": 160.0,
+        "step": 20.0
+      },
+      "amplifier": {
+        "min": 0.0,
+        "max": 2.0,
+        "step": 0.5
+      },
+      "cooldown": 60
+    }
+  }
+}

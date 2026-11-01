@@ -1,0 +1,22 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:generic.oxygen_bonus",
+  "operation": "add_value",
+  "categories": [
+    "apotheosis:helmet"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 10,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:ancient": {
+      "min": 0.85,
+      "max": 1.44
+    }
+  }
+}

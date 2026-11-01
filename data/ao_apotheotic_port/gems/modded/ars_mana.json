@@ -1,0 +1,75 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 4,
+    "quality": 2
+  },
+  "min_purity": "cracked",
+  "unique": false,
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "operation": "add_value",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "apotheosis:helmet"
+        ]
+      },
+      "values": {
+        "cracked": 25,
+        "chipped": 50,
+        "flawed": 75,
+        "normal": 100,
+        "flawless": 125,
+        "perfect": 150
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "operation": "add_value",
+      "gem_class": {
+        "key": "lower_armor",
+        "types": [
+          "apotheosis:boots",
+          "apotheosis:leggings"
+        ]
+      },
+      "values": {
+        "cracked": 0.5,
+        "chipped": 1.0,
+        "flawed": 1.5,
+        "normal": 2.0,
+        "flawless": 2.5,
+        "perfect": 3.0
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.warding",
+      "operation": "add_multiplied_total",
+      "gem_class": {
+        "key": "shield",
+        "types": [
+          "apotheosis:shield"
+        ]
+      },
+      "values": {
+        "cracked": 0.025,
+        "chipped": 0.05,
+        "flawed": 0.075,
+        "normal": 0.1,
+        "flawless": 0.125,
+        "perfect": 0.15
+      }
+    }
+  ]
+}

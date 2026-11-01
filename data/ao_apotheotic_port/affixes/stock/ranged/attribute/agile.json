@@ -1,0 +1,26 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "apothic_attributes:draw_speed",
+  "categories": [
+    "apotheosis:bow"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "operation": "add_multiplied_total",
+  "values": {
+    "ao_apotheotic_port:artifact": {
+      "min": 0.5,
+      "max": 0.65
+    },
+    "ao_apotheotic_port:esoteric": {
+      "min": 0.5,
+      "max": 0.65
+    }
+  }
+}

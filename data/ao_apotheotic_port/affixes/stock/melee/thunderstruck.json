@@ -1,0 +1,32 @@
+{
+  "type": "apotheosis:thunderstruck",
+  "categories": [
+    "apotheosis:melee_weapon",
+    "apotheosis:trident"
+  ],
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": {
+      "min": 4.0,
+      "max": 8.0,
+      "step": 1.0
+    },
+    "ao_apotheotic_port:artifact": {
+      "min": 4.0,
+      "max": 8.0,
+      "step": 1.0
+    },
+    "ao_apotheotic_port:esoteric": {
+      "min": 4.0,
+      "max": 8.0,
+      "step": 1.0
+    }
+  }
+}

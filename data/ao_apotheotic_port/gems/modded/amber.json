@@ -1,0 +1,106 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 1,
+    "quality": 1
+  },
+  "min_purity": "flawed",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:enchantment",
+      "enchantment": "alexscaves:heavy_slam",
+      "mode": "single",
+      "gem_class": {
+        "key": "resistor_shield",
+        "types": [
+          "apotheosis:shield"
+        ]
+      },
+      "values": {
+        "flawed": 1,
+        "normal": 1,
+        "flawless": 1,
+        "perfect": 1
+      }
+    },
+    {
+      "type": "apotheosis:enchantment",
+      "enchantment": "alexscaves:swiftwood",
+      "mode": "single",
+      "gem_class": {
+        "key": "prim_club",
+        "types": [
+          "apotheosis:melee_weapon"
+        ]
+      },
+      "values": {
+        "flawed": 1,
+        "normal": 1,
+        "flawless": 1,
+        "perfect": 1
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "apothic_attributes:mining_speed",
+      "operation": "add_multiplied_total",
+      "gem_class": {
+        "key": "pickaxe",
+        "types": [
+          "apotheosis:breaker"
+        ]
+      },
+      "values": {
+        "flawed": 0.05,
+        "normal": 0.1,
+        "flawless": 0.2,
+        "perfect": 0.3
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "apotheosis:chestplate"
+        ]
+      },
+      "mob_effect": "alexscaves:rage",
+      "target": "hurt_self",
+      "values": {
+        "flawed": {
+          "duration": 40,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "normal": {
+          "duration": 80,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "flawless": {
+          "duration": 160,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "perfect": {
+          "duration": 240,
+          "amplifier": 0,
+          "cooldown": 900
+        }
+      }
+    }
+  ],
+  "constraints": {
+    "dimensions": [
+      "minecraft:overworld"
+    ]
+  }
+}

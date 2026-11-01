@@ -1,0 +1,80 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 5,
+    "quality": 4.5
+  },
+  "min_purity": "flawless",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "operation": "add_value",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "apotheosis:chestplate"
+        ]
+      },
+      "values": {
+        "flawed": 3.0,
+        "normal": 4.0,
+        "flawless": 5.0,
+        "perfect": 6.0
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "apothic_attributes:life_steal",
+      "operation": "add_multiplied_total",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "apotheosis:helmet"
+        ]
+      },
+      "values": {
+        "flawed": 0.1,
+        "normal": 0.15,
+        "flawless": 0.2,
+        "perfect": 0.25
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "ranged_weapon",
+        "types": [
+          "apotheosis:bow",
+          "apotheosis:trident"
+        ]
+      },
+      "mob_effect": "undergarden:virulence",
+      "target": "arrow_target",
+      "values": {
+        "flawless": {
+          "duration": 180,
+          "amplifier": 0,
+          "cooldown": 800
+        },
+        "perfect": {
+          "duration": 240,
+          "amplifier": 0,
+          "cooldown": 800
+        }
+      }
+    }
+  ],
+  "constraints": {
+    "dimensions": [
+      "undergarden:undergarden"
+    ]
+  }
+}

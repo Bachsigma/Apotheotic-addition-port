@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "dev.ambientodyssey.ports.apotheotic.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "GemCaseTileMixin",
+    "GemCaseItemHandlerMixin",
+    "GemIngredientMixin",
+    "GemItemNameMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "SalvagingScreenMixin"
+  ]
+}

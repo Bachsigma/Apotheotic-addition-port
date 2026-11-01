@@ -1,0 +1,47 @@
+{
+  "type": "apotheosis:mob_effect",
+  "types": [
+    "apotheosis:melee_weapon",
+    "apotheosis:trident"
+  ],
+  "mob_effect": "apothic_attributes:sundering",
+  "target": "attack_target",
+  "definition": {
+    "affix_type": "basic_effect",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 25,
+      "quality": 0.1
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": {
+      "duration": {
+        "min": 200.0,
+        "max": 360.0,
+        "step": 20.0
+      },
+      "amplifier": {
+        "min": 0.0,
+        "max": 1.0,
+        "step": 0.25
+      },
+      "cooldown": 120
+    },
+    "ao_apotheotic_port:ancient": {
+      "duration": {
+        "min": 200.0,
+        "max": 360.0,
+        "step": 20.0
+      },
+      "amplifier": {
+        "min": 0.0,
+        "max": 1.0,
+        "step": 0.25
+      },
+      "cooldown": 120
+    }
+  },
+  "stack_on_reapply": true,
+  "stacking_limit": 3
+}

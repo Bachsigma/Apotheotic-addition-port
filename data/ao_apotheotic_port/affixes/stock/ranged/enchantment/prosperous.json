@@ -1,0 +1,32 @@
+{
+  "type": "apotheosis:enchantment",
+  "categories": [
+    "apotheosis:bow"
+  ],
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "enchantment": "minecraft:looting",
+  "values": {
+    "ao_apotheotic_port:heirloom": {
+      "min": 8.0,
+      "max": 10.0,
+      "step": 0.25
+    },
+    "ao_apotheotic_port:artifact": {
+      "min": 8.0,
+      "max": 10.0,
+      "step": 0.25
+    },
+    "ao_apotheotic_port:esoteric": {
+      "min": 8.0,
+      "max": 10.0,
+      "step": 0.25
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ao_apotheotic_port:items/ancient_material"
+  }
+}

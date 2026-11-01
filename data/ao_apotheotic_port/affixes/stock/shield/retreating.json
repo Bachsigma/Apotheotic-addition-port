@@ -1,0 +1,16 @@
+{
+  "type": "apotheosis:retreating",
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "rarities": [
+    "ao_apotheotic_port:heirloom",
+    "ao_apotheotic_port:artifact",
+    "ao_apotheotic_port:esoteric"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alexsmobs"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "weights": {
+    "weight": 2,
+    "quality": 2.0
+  },
+  "stack": {
+    "id": "alexsmobs:ghostly_pickaxe",
+    "count": 1
+  },
+  "rarities": [
+    "ao_apotheotic_port:artifact",
+    "ao_apotheotic_port:heirloom"
+  ],
+  "constraints": {
+    "dimensions": [
+      "minecraft:the_nether",
+      "minecraft:the_end"
+    ]
+  }
+}

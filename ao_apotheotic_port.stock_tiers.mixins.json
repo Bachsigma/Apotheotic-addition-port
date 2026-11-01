@@ -1,0 +1,18 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "dev.ambientodyssey.ports.apotheotic.mixin.stock",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "StockAttributeBonusTierMixin",
+    "StockAllStatsBonusTierMixin",
+    "StockMultiAttrBonusTierMixin",
+    "StockModifierInstTierMixin",
+    "StockEnchantmentBonusTierMixin",
+    "StockMobEffectBonusTierMixin",
+    "MultiAttrBonusAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "ao_apotheotic_port:legacy_tier_upgrade",
+  "from_tier": 8,
+  "left": [
+    {
+      "count": 51,
+      "item": "apotheosis:gem_dust"
+    }
+  ],
+  "right": [
+    {
+      "count": 3,
+      "item": "ao_apotheotic_port:heirloom_material"
+    },
+    {
+      "count": 1,
+      "item": "ao_apotheotic_port:esoteric_material"
+    },
+    {
+      "count": 9,
+      "item": "ao_apotheotic_port:artifact_material"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+  "type": "apotheosis:mob_effect",
+  "types": [
+    "apotheosis:boots",
+    "apotheosis:chestplate",
+    "apotheosis:helmet",
+    "apotheosis:leggings"
+  ],
+  "mob_effect": "quark:resilience",
+  "target": "hurt_self",
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:ancient": {
+      "duration": {
+        "min": 700,
+        "steps": 20,
+        "step": 10
+      },
+      "amplifier": 0,
+      "cooldown": 1400
+    },
+    "ao_apotheotic_port:artifact": {
+      "duration": {
+        "min": 800,
+        "steps": 20,
+        "step": 15
+      },
+      "amplifier": 0,
+      "cooldown": 1200
+    },
+    "ao_apotheotic_port:heirloom": {
+      "duration": {
+        "min": 1500,
+        "steps": 20,
+        "step": 15
+      },
+      "amplifier": 1,
+      "cooldown": 1000
+    },
+    "ao_apotheotic_port:esoteric": {
+      "duration": {
+        "min": 1800,
+        "steps": 40,
+        "step": 15
+      },
+      "amplifier": 1,
+      "cooldown": 1000
+    }
+  }
+}

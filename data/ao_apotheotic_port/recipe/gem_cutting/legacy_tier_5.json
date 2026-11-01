@@ -1,0 +1,20 @@
+{
+  "type": "ao_apotheotic_port:legacy_tier_upgrade",
+  "from_tier": 5,
+  "left": [
+    {
+      "count": 33,
+      "item": "apotheosis:gem_dust"
+    }
+  ],
+  "right": [
+    {
+      "count": 3,
+      "item": "apotheosis:godforged_pearl"
+    },
+    {
+      "count": 1,
+      "item": "ao_apotheotic_port:ancient_material"
+    }
+  ]
+}

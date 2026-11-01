@@ -1,0 +1,32 @@
+{
+  "type": "apotheosis:damage_reduction",
+  "categories": [
+    "apotheosis:helmet",
+    "apotheosis:chestplate",
+    "apotheosis:leggings",
+    "apotheosis:boots"
+  ],
+  "damage_type": "magic",
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": {
+      "min": 0.05,
+      "max": 0.15
+    },
+    "ao_apotheotic_port:artifact": {
+      "min": 0.05,
+      "max": 0.15
+    },
+    "ao_apotheotic_port:esoteric": {
+      "min": 0.05,
+      "max": 0.15
+    }
+  }
+}

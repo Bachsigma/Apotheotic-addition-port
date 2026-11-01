@@ -1,0 +1,112 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 1,
+    "quality": 1
+  },
+  "min_purity": "normal",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:drop_transform",
+      "conditions": [
+        {
+          "condition": "apotheosis:matches_block",
+          "valid_blocks": "#minecraft:logs"
+        }
+      ],
+      "desc": "gem.apotheotic_additions:alchemy/heartland.axe",
+      "gem_class": {
+        "key": "axe",
+        "types": [
+          "apotheosis:melee_weapon"
+        ]
+      },
+      "inputs": {
+        "tag": "minecraft:logs"
+      },
+      "output": {
+        "count": 1,
+        "id": "farmersdelight:tree_bark"
+      },
+      "values": {
+        "normal": 0.05,
+        "flawless": 0.1,
+        "perfect": 0.15
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "ranged_weapon",
+        "types": [
+          "apotheosis:bow",
+          "apotheosis:trident"
+        ]
+      },
+      "mob_effect": "farmersdelight:comfort",
+      "target": "attack_self",
+      "values": {
+        "flawed": {
+          "duration": 60,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "normal": {
+          "duration": 80,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "flawless": {
+          "duration": 120,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "perfect": {
+          "duration": 160,
+          "amplifier": 1,
+          "cooldown": 900
+        }
+      }
+    },
+    {
+      "type": "apotheosis:drop_transform",
+      "conditions": [
+        {
+          "condition": "apotheosis:matches_block",
+          "valid_blocks": "#minecraft:dirt"
+        }
+      ],
+      "desc": "gem.apotheotic_additions:alchemy/heartland.shovel",
+      "gem_class": {
+        "key": "shovel",
+        "types": [
+          "apotheosis:breaker"
+        ]
+      },
+      "inputs": {
+        "tag": "minecraft:dirt"
+      },
+      "output": {
+        "count": 1,
+        "id": "farmersdelight:rich_soil"
+      },
+      "values": {
+        "normal": 0.02,
+        "flawless": 0.04,
+        "perfect": 0.06
+      }
+    }
+  ],
+  "constraints": {
+    "dimensions": [
+      "minecraft:overworld"
+    ]
+  }
+}

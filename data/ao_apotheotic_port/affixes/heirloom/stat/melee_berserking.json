@@ -1,0 +1,22 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "apothic_attributes:overheal",
+  "operation": "add_value",
+  "categories": [
+    "apotheosis:melee_weapon"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 10,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": {
+      "min": 0.15,
+      "max": 0.25
+    }
+  }
+}

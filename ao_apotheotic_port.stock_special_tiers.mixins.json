@@ -1,0 +1,22 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "dev.ambientodyssey.ports.apotheotic.mixin.special",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "StockDamageReductionBonusTierMixin",
+    "StockDurabilityBonusTierMixin",
+    "StockMageSlayerBonusTierMixin",
+    "StockLeechBlockBonusTierMixin",
+    "StockBloodyArrowBonusTierMixin",
+    "StockDropTransformBonusTierMixin",
+    "StockFrozenDropsBonusTierMixin",
+    "StockRadialBonusTierMixin",
+    "StockOreMagnetBonusTierMixin",
+    "StockTreasureGoblinBonusTierMixin",
+    "StockFortificationBonusTierMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

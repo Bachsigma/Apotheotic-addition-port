@@ -1,0 +1,36 @@
+{
+  "type": "apotheosis:mob_effect",
+  "definition": {
+    "affix_type": "basic_effect",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 25,
+      "quality": 0
+    }
+  },
+  "mob_effect": "minecraft:blindness",
+  "target": "hurt_attacker",
+  "types": [
+    "apotheosis:helmet"
+  ],
+  "values": {
+    "ao_apotheotic_port:ancient": {
+      "duration": {
+        "min": 60.0,
+        "max": 100.0,
+        "step": 20.0
+      },
+      "amplifier": 0.0,
+      "cooldown": 200
+    },
+    "ao_apotheotic_port:heirloom": {
+      "duration": {
+        "min": 60.0,
+        "max": 100.0,
+        "step": 20.0
+      },
+      "amplifier": 0.0,
+      "cooldown": 200
+    }
+  }
+}

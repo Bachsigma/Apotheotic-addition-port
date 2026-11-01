@@ -1,0 +1,28 @@
+{
+  "type": "apotheosis:catalyzing",
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": {
+      "min": 300.0,
+      "max": 600.0,
+      "step": 20.0
+    },
+    "ao_apotheotic_port:artifact": {
+      "min": 300.0,
+      "max": 600.0,
+      "step": 20.0
+    },
+    "ao_apotheotic_port:esoteric": {
+      "min": 300.0,
+      "max": 600.0,
+      "step": 20.0
+    }
+  }
+}

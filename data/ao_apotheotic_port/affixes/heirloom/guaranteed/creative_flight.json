@@ -1,0 +1,19 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "neoforge:creative_flight",
+  "operation": "add_value",
+  "categories": [
+    "apotheosis:chestplate"
+  ],
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 0,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": 1.0
+  }
+}

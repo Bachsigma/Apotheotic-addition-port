@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 0
+  },
+  "min_purity": "perfect",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "ao_apotheotic_port:legacy_attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "add_value",
+      "gem_class": {
+        "key": "pickaxe",
+        "types": [
+          "apotheosis:breaker"
+        ]
+      },
+      "legacy_values": {
+        "artifact": 3,
+        "heirloom": 3.5,
+        "esoteric": 4
+      }
+    }
+  ]
+}

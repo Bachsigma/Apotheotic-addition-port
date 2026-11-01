@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 1,
+    "quality": 1
+  },
+  "min_purity": "flawless",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "neoforge:creative_flight",
+      "operation": "add_value",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "apotheosis:chestplate"
+        ]
+      },
+      "values": {
+        "flawless": 0,
+        "perfect": 0
+      }
+    }
+  ],
+  "constraints": {
+    "dimensions": [
+      "aether:the_aether"
+    ]
+  }
+}

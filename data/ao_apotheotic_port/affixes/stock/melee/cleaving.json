@@ -1,0 +1,49 @@
+{
+  "type": "apotheosis:cleaving",
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": {
+      "chance": {
+        "min": 0.4,
+        "max": 0.6,
+        "step": 0.05
+      },
+      "targets": {
+        "min": 3.0,
+        "max": 6.0,
+        "step": 1.0
+      }
+    },
+    "ao_apotheotic_port:artifact": {
+      "chance": {
+        "min": 0.4,
+        "max": 0.6,
+        "step": 0.05
+      },
+      "targets": {
+        "min": 3.0,
+        "max": 6.0,
+        "step": 1.0
+      }
+    },
+    "ao_apotheotic_port:esoteric": {
+      "chance": {
+        "min": 0.4,
+        "max": 0.6,
+        "step": 0.05
+      },
+      "targets": {
+        "min": 3.0,
+        "max": 6.0,
+        "step": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mowziesmobs"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 0
+  },
+  "min_purity": "perfect",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "apotheosis:chestplate"
+        ]
+      },
+      "mob_effect": "mowziesmobs:suns_blessing",
+      "target": "hurt_self",
+      "values": {
+        "perfect": {
+          "duration": 5000,
+          "amplifier": 0,
+          "cooldown": 6000
+        }
+      }
+    }
+  ]
+}

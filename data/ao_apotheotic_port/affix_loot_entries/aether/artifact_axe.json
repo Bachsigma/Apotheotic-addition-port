@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "weights": {
+    "weight": 1,
+    "quality": 2
+  },
+  "stack": {
+    "id": "aether:gravitite_axe",
+    "count": 1
+  },
+  "rarities": [
+    "ao_apotheotic_port:artifact"
+  ],
+  "constraints": {
+    "dimensions": [
+      "aether:the_aether"
+    ]
+  }
+}

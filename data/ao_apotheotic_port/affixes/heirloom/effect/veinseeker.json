@@ -1,0 +1,28 @@
+{
+  "type": "apotheosis:enchantment",
+  "categories": [
+    "apotheosis:breaker"
+  ],
+  "enchantment": "minecraft:fortune",
+  "mode": "existing",
+  "definition": {
+    "affix_type": "basic_effect",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 25,
+      "quality": 0.1
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:heirloom": {
+      "min": 2,
+      "max": 4,
+      "step": 0.5
+    },
+    "ao_apotheotic_port:ancient": {
+      "min": 2,
+      "max": 4,
+      "step": 0.5
+    }
+  }
+}

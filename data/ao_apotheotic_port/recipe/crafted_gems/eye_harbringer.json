@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ADA",
+    "CBC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "ao_apotheotic_port:artifact_material"
+    },
+    "B": {
+      "item": "cataclysm:witherite_block"
+    },
+    "C": {
+      "item": "minecraft:redstone_block"
+    },
+    "D": {
+      "item": "ao_apotheotic_port:gembound_sigil"
+    }
+  },
+  "result": {
+    "id": "apotheosis:gem",
+    "count": 1,
+    "components": {
+      "apotheosis:gem": "ao_apotheotic_port:crafted/harbringer",
+      "apotheosis:purity": "perfect",
+      "ao_apotheotic_port:legacy_gem_tier": 7,
+      "apotheosis:rarity": "ao_apotheotic_port:artifact"
+    }
+  }
+}

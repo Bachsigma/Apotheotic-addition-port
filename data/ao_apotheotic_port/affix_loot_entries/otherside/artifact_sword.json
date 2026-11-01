@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "deeperdarker"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "weights": {
+    "weight": 1,
+    "quality": 4
+  },
+  "stack": {
+    "id": "minecraft:netherite_sword",
+    "count": 1
+  },
+  "rarities": [
+    "ao_apotheotic_port:artifact",
+    "ao_apotheotic_port:heirloom"
+  ],
+  "constraints": {
+    "dimensions": [
+      "deeperdarker:otherside"
+    ]
+  }
+}

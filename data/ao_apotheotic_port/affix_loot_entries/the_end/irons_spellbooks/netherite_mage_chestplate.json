@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "weights": {
+    "weight": 1,
+    "quality": 0.5
+  },
+  "stack": {
+    "id": "irons_spellbooks:netherite_mage_chestplate",
+    "count": 1
+  },
+  "rarities": [
+    "ao_apotheotic_port:ancient"
+  ],
+  "constraints": {
+    "dimensions": [
+      "minecraft:the_end"
+    ]
+  }
+}

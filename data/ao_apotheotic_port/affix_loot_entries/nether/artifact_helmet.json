@@ -1,0 +1,19 @@
+{
+  "type": "apotheosis:affix_loot_entry",
+  "weights": {
+    "weight": 1,
+    "quality": 1.0
+  },
+  "stack": {
+    "id": "minecraft:diamond_helmet",
+    "count": 1
+  },
+  "rarities": [
+    "ao_apotheotic_port:artifact"
+  ],
+  "constraints": {
+    "dimensions": [
+      "minecraft:the_nether"
+    ]
+  }
+}

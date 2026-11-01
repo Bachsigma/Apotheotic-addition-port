@@ -1,0 +1,26 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:generic.armor",
+  "categories": [
+    "apotheosis:shield"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 1,
+      "quality": 0
+    }
+  },
+  "operation": "add_multiplied_base",
+  "values": {
+    "ao_apotheotic_port:artifact": {
+      "min": 0.2,
+      "max": 0.3
+    },
+    "ao_apotheotic_port:esoteric": {
+      "min": 0.2,
+      "max": 0.3
+    }
+  }
+}

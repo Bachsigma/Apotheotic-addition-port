@@ -1,0 +1,23 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "apothic_attributes:arrow_damage",
+  "operation": "add_multiplied_total",
+  "categories": [
+    "apotheosis:bow",
+    "apotheosis:trident"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 10,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:ancient": {
+      "min": 0.25,
+      "max": 0.46
+    }
+  }
+}

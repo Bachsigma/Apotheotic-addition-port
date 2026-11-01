@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "dev.ambientodyssey.ports.apotheotic.mixin.gleam",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AffixItemEffectRendererMixin",
+    "GuiGraphicsDrawStringMixin",
+    "GuiSelectedItemNameMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

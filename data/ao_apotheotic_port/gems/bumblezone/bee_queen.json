@@ -1,0 +1,115 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "the_bumblezone"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 7,
+    "quality": 5.5
+  },
+  "min_purity": "chipped",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "apotheosis:melee_weapon",
+          "apotheosis:trident"
+        ]
+      },
+      "mob_effect": "the_bumblezone:beenergized",
+      "target": "attack_self",
+      "values": {
+        "chipped": {
+          "duration": 100,
+          "amplifier": 0,
+          "cooldown": 100
+        },
+        "flawed": {
+          "duration": 150,
+          "amplifier": 0,
+          "cooldown": 100
+        },
+        "normal": {
+          "duration": 200,
+          "amplifier": 0,
+          "cooldown": 100
+        },
+        "flawless": {
+          "duration": 250,
+          "amplifier": 1,
+          "cooldown": 100
+        },
+        "perfect": {
+          "duration": 300,
+          "amplifier": 1,
+          "cooldown": 100
+        }
+      },
+      "stack_on_reapply": true
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "apothic_attributes:fire_damage",
+      "operation": "add_value",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "apotheosis:chestplate"
+        ]
+      },
+      "values": {
+        "chipped": 0.5,
+        "flawed": 1.0,
+        "normal": 1.5,
+        "flawless": 2.0,
+        "perfect": 2.5
+      }
+    },
+    {
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
+      "gem_class": {
+        "key": "lower_armor",
+        "types": [
+          "apotheosis:boots",
+          "apotheosis:leggings"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "apothic_attributes:cold_damage",
+          "operation": "add_multiplied_total",
+          "values": {
+            "chipped": 0.03,
+            "flawed": 0.06,
+            "normal": 0.09,
+            "flawless": 0.12,
+            "perfect": 0.15
+          }
+        },
+        {
+          "attribute": "apothic_attributes:fire_damage",
+          "operation": "add_multiplied_total",
+          "values": {
+            "chipped": -0.03,
+            "flawed": -0.06,
+            "normal": -0.09,
+            "flawless": -0.12,
+            "perfect": -0.15
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "dimensions": [
+      "the_bumblezone:the_bumblezone"
+    ]
+  }
+}

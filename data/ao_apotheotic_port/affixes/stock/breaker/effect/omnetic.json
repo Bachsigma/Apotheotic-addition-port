@@ -1,0 +1,66 @@
+{
+  "type": "apotheosis:omnetic",
+  "categories": [
+    "apotheosis:breaker"
+  ],
+  "definition": {
+    "affix_type": "basic_effect",
+    "exclusive_set": [],
+    "weights": {
+      "weight": 25,
+      "quality": 0
+    }
+  },
+  "values": {
+    "ao_apotheotic_port:ancient": {
+      "items": [
+        {
+          "count": 1,
+          "id": "minecraft:netherite_axe"
+        },
+        {
+          "count": 1,
+          "id": "minecraft:netherite_shovel"
+        },
+        {
+          "count": 1,
+          "id": "minecraft:netherite_pickaxe"
+        },
+        {
+          "count": 1,
+          "id": "minecraft:netherite_sword"
+        },
+        {
+          "count": 1,
+          "id": "minecraft:netherite_hoe"
+        }
+      ],
+      "name": "netherite"
+    },
+    "ao_apotheotic_port:heirloom": {
+      "items": [
+        {
+          "count": 1,
+          "id": "minecraft:netherite_axe"
+        },
+        {
+          "count": 1,
+          "id": "minecraft:netherite_shovel"
+        },
+        {
+          "count": 1,
+          "id": "minecraft:netherite_pickaxe"
+        },
+        {
+          "count": 1,
+          "id": "minecraft:netherite_sword"
+        },
+        {
+          "count": 1,
+          "id": "minecraft:netherite_hoe"
+        }
+      ],
+      "name": "netherite"
+    }
+  }
+}

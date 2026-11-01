@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "weights": {
+    "weight": 1,
+    "quality": 1
+  },
+  "stack": {
+    "id": "cataclysm:bulwark_of_the_flame",
+    "count": 1
+  },
+  "rarities": [
+    "ao_apotheotic_port:artifact"
+  ],
+  "constraints": {
+    "dimensions": [
+      "minecraft:the_nether"
+    ]
+  }
+}

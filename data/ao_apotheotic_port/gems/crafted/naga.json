@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "weights": {
+    "weight": 0
+  },
+  "min_purity": "perfect",
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:drop_transform",
+      "conditions": [
+        {
+          "condition": "apotheosis:matches_block",
+          "valid_blocks": "#minecraft:logs"
+        }
+      ],
+      "desc": "gem.apotheotic_additions:alchemy/naga.axe",
+      "gem_class": {
+        "key": "axe",
+        "types": [
+          "apotheosis:melee_weapon"
+        ]
+      },
+      "inputs": {
+        "tag": "minecraft:logs"
+      },
+      "output": {
+        "count": 1,
+        "id": "twilightforest:liveroot"
+      },
+      "values": {
+        "perfect": 0.75
+      }
+    }
+  ]
+}
